@@ -1,7 +1,9 @@
+import PaymentNavbar from "../components/paymentNavbar";
+
 const Dashboard = () => {
     return (
         <div className="w-full">
-            Im dashboard page
+            <PaymentNavbar />
         </div>
     );
 }

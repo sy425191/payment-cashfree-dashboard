@@ -12,7 +12,7 @@ const Sidebar = () => {
               <span className="text-[15px] font-[500] text-gray-100">
                 Saurabh
               </span>
-              <span className="text-[13px] font-[400] text-gray-300 underline underline-offset-2">
+              <span className="text-[13px] cursor-pointer font-[400] text-gray-300 underline underline-offset-2">
                 Visit Store
               </span>
             </div>
@@ -23,7 +23,7 @@ const Sidebar = () => {
         </div>
         <div className="mt-2">
           {SidebarColumns.map((val) => {
-            return <SidebarCard  icon={val.icon} title={val.title} />;
+            return <SidebarCard key={val.key} icon={val.icon} title={val.title} />;
           })}
         </div>
       </div>
