@@ -39,6 +39,11 @@ const Pagination = () => {
       <PaginationBtn pageNumber={11} status={false} />
       <PaginationBtn pageNumber={12} status={false} />
       <PaginationBtn pageNumber={13} status={false} />
+      <PaginationBtn pageNumber={14} status={false} />
+      <PaginationBtn pageNumber={15} status={false} />
+      <PaginationBtn pageNumber={16} status={false} />
+      <PaginationBtn pageNumber={17} status={false} />
+      <PaginationBtn pageNumber={18} status={false} />
 
       <button
         type="button"
