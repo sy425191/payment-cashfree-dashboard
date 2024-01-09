@@ -7,7 +7,9 @@ const Sidebar = () => {
       <div className="">
         <div className="flex justify-between w-full h-[42px]">
           <div className="flex">
-            <div className="w-[40px] h-[40px] bg-white rounded"></div>
+            <img src="/image.png" className="w-[40px] h-[40px] bg-white rounded">
+
+            </img>
             <div className="flex flex-col justify-content-between ml-3">
               <span className="text-[15px] font-[500] text-gray-100">
                 Saurabh
