@@ -1,6 +1,6 @@
 const PaymentNavbar = () => {
   return (
-    <div className="flex justify-between items-center bg-white border-b-2 px-5 w-full h-[64px]">
+    <div className="flex flex-col justify-center space-y-2 md:flex-row md:justify-between md:items-center bg-white border-b-2 px-5 py-3 w-full">
       <div className="flex flex-row">
         <span className="px-2 text-[15px] font-[400] text-gray-700">
           Payments
@@ -17,7 +17,7 @@ const PaymentNavbar = () => {
           className="pl-8 pr-2 py-2 text-[15px] font-[400] bg-[#F2F2F2] rounded w-full focus:outline-none"
         />
       </div>
-      <div className="flex flex-row space-x-4 ">
+      <div className="space-x-4 hidden md:flex md:flex-row">
         <div className="w-[40px] h-[40px] flex justify-center items-center bg-black/10 rounded-3xl">
           <i className="fa fa-bullhorn fa-xs"></i>
         </div>

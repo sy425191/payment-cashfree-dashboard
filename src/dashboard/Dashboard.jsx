@@ -20,7 +20,7 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className="flex flex-between space-x-4 my-3">
+        <div className="flex flex-col md:flex-row flex-between md:space-x-4 my-3">
           <DashboardCard title={"Online orders"} value={"231"} />
           <DashboardCard
             title={"Amount received"}

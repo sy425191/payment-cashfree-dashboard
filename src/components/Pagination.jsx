@@ -3,7 +3,7 @@ const Pagination = () => {
     <nav className="flex items-center gap-x-[8px]">
       <button
         type="button"
-        className="h-[32px] w-[100px] py-2 px-2.5 inline-flex justify-center items-center gap-x-1.5 text-[14px] font-[500] rounded-lg border border-gray-200 hover:bg-gray-100"
+        className="h-[32px] py-2 px-2.5 inline-flex justify-center items-center gap-x-1.5 text-[14px] font-[500] rounded-lg border border-gray-200 hover:bg-gray-100"
       >
         <i className="fa fa-angle-left fa-xs pt-1"></i>
         <span className="hidden sm:block">Previous</span>
@@ -38,12 +38,6 @@ const Pagination = () => {
       <PaginationBtn pageNumber={10} status={true} />
       <PaginationBtn pageNumber={11} status={false} />
       <PaginationBtn pageNumber={12} status={false} />
-      <PaginationBtn pageNumber={13} status={false} />
-      <PaginationBtn pageNumber={14} status={false} />
-      <PaginationBtn pageNumber={15} status={false} />
-      <PaginationBtn pageNumber={16} status={false} />
-      <PaginationBtn pageNumber={17} status={false} />
-      <PaginationBtn pageNumber={18} status={false} />
 
       <button
         type="button"
